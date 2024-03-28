@@ -466,3 +466,49 @@
   font-size: 1rem;
  
 }
+
+.help-section-heading {
+  font-size: 2.25rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.25;
+}
+
+.help-card{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: space-between;
+  border: gray 1px solid;
+  padding: 30px 20px ;
+  border-radius: 10px;
+}
+
+.help-card-content h3{
+  color: #2d2d2d;
+  font-weight: 700;
+  font-family: "Indeed Sans", "Noto Sans", "Helvetica Neue", "Helvetica",
+  "Arial", "Liberation Sans", "Roboto", "Noto", sans-serif;
+  font-size: 1.5rem;
+}
+
+.help-card-content p{
+  color: #2d2d2d;
+  font-weight: 500;
+  font-family: "Indeed Sans", "Noto Sans", "Helvetica Neue", "Helvetica",
+  "Arial", "Liberation Sans", "Roboto", "Noto", sans-serif;
+  font-size: 1rem;
+}
+
+.redirect-link span{
+ color: #0d2d5e;
+ font-weight: 700;
+ font-family: "Indeed Sans", "Noto Sans", "Helvetica Neue", "Helvetica",
+ "Arial", "Liberation Sans", "Roboto", "Noto", sans-serif;
+ font-size: 1rem;
+}
+
+.redirect-link span:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
